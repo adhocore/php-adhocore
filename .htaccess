@@ -1,0 +1,9 @@
+Action application/x-hg-php53 /cgi-sys/php53
+AddType application/x-httpd-php53 .php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*) index.php/$1 [L]
+
