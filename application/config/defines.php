@@ -1,7 +1,7 @@
-<?php 
+<?php
 /*
- * Define application constants 
- * 
+ * Define application constants
+ *
  */
 
 define('ACTIVE', 1);

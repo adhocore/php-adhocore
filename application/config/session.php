@@ -1,21 +1,21 @@
 <?php
 
-return array(
+return [
 
-	'driver' 	=> 'cookie',
+    'driver' 	=> 'cookie',
 
-	'table' 	=> 'ahc_sess_table',
-	
-	'cookie' 	=> 'ahc_sess_kookie',
+    'table' 	=> 'ahc_sess_table',
+    
+    'cookie' 	=> 'ahc_sess_kookie',
 
-	'timeout'	=> 5,
+    'timeout'	=> 5,
 
-	'close_expire' => FALSE,
+    'close_expire' => false,
 
-	'path' 		=> '/',
+    'path' 		=> '/',
 
-	'domain' 	=> NULL,
+    'domain' 	=> null,
 
-	'secure' 	=> FALSE,
+    'secure' 	=> false,
 
-);
+];

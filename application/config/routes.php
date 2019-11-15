@@ -1,2 +1,3 @@
 <?php
-	route('admin/(any)(:any)', '$1#admin.$2');
+
+    route('admin/(any)(:any)', '$1#admin.$2');
